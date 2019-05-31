@@ -1,0 +1,70 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "src"
+  ],
+  "paths": {
+    "assets":[
+      "assets"
+    ],
+    "assets/*":[
+      "assets/*"
+    ],
+    "stylesheets":[
+      "stylesheets"
+    ],
+    "stylesheets/*":[
+      "stylesheets/*"
+    ],
+    "utils":[
+      "utils"
+    ],
+    "utils/*":[
+      "utils/*"
+    ],
+    "config":[
+      "config"
+    ],
+    "config/*":[
+      "config/*"
+    ],
+    "services":[
+      "services"
+    ],
+    "services/*":[
+      "services/*"
+    ],
+    "layouts":[
+      "layouts"
+    ],
+    "layouts/*":[
+      "layouts/*"
+    ],
+    "components":[
+      "components"
+    ],
+    "components/*":[
+      "components/*"
+    ]
+  }
+}

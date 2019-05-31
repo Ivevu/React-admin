@@ -1,0 +1,45 @@
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.layout {
+  height: 100%;
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  /deep/ .ant-layout-sider-children {
+    display: flex;
+    flex-direction: column;
+  }
+  .infor {
+    width: 20%;
+    min-width: 200px;
+    margin-left: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    &.option {
+      text-align: right;
+      font-size: 14px;
+    }
+  }
+}
+
+.triggerBox {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 24px;
+  flex: 1;
+  .trigger {
+    color: white;
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+  &.menu-fold {
+    align-self: center;
+  }
+}
